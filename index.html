@@ -342,16 +342,34 @@
           </div>
 
           <div class="contactContainer sectionContainer">
-            <h3>Get in Touch</h3>
-            <div class="contactTypes">
-              <div class="flexContainer">
-                <div class="typeBox">
-                  <i class="lni lni-envelope"></i>
-                  <a href="mailto:ncacu.monywa@gmail.com">ncacu.monywa@gmail.com</a>
-                  <p>Email Me</p>
-                </div>
+              <h3>Get in Touch</h3>
+              <div class="contactTypes">
+                  <div class="flexContainer">
+                      <div class="typeBox">
+                          <i class="lni lni-envelope"></i>
+                          <a href="mailto:ncacu.monywa@gmail.com">ncacu.monywa@gmail.com</a>
+                          <p>Email Me</p>
+                      </div>
+                  </div>
+                  <div class="flexContainer">
+                      <div class="typeBox">
+                          <i class="lni lni-phone"></i>
+                          <a>09-969992676</a>
+                          <p>Phone No.</p>
+                      </div>
+                  </div>
               </div>
-            </div>
+              <div class="contactFormContainer">
+                  <h3>Contact Form</h3>
+
+                  <form id="contactForm" action="https://formspree.io/f/mwkanbjo" method="POST">
+                      <label for="_replyto" class="srOnly">Your email:</label>
+                      <input type="email" name="_replyto" id="_replyto" class="emailInput" required="" placeholder="Your Email*">
+                      <label for="message" class="srOnly">Your message:</label>
+                      <textarea name="message" id="message" class="messageInput" required="" placeholder="Your Message*"></textarea>
+                  </form>
+                  <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
+              </div>
           </div> 
 
         </section>
